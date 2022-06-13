@@ -1,12 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Document</title>
-	</head>
-	<body>
-		<h1>Hello World!</h1>
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>CV</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="images/cv.svg" />
+  </head>
+  <body>
+    <main class="main">
+      <header class="header">
+        <img class="user-photo" src="images/user-photo.jpg" alt="user-photo" />
+        <h1 class="user-name">Sergey Chachillo</h1>
+      </header>
+
+      <span class="line margin-top"></span>
+
+      <section class="summary margin-top">
+        <div class="summary-row row">
+          <div class="block-left">
+            <p class="list-title">Social</p>
+            <ul class="summary-list list">
+              <li>
+                <a href="sergey@example.com">
+                  <img class="icon" src="images/icons/email.svg" alt="icon" />
+                  <p>sergey@example.com</p>
+                </a>
+              </li>
+              <li>
+                <a href="https://discord.com/channels/@me">
+                  <img class="icon" src="images/icons/discord.svg" alt="icon" />
+                  <p>Sergey P.(mshr1)#4652</p>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/mshr1">
+                  <img class="icon" src="images/icons/git.svg" alt="icon" />
+                  <p>mshr1</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="summary-text text">
+            <h2>Summary</h2>
+            <p>
+              I am a beginner web developer. I like computers and I would like
+              to learn how to make a quality product that will help people solve
+              their problems
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <span class="line margin-top"></span>
+
+      <section class="work margin-top">
+        <div class="work-row row">
+          <div class="block-left">
+            <p class="list-title">Skills</p>
+            <ul>
+              <li>
+                <img class="icon" src="images/icons/html.svg" alt="icon" />
+                <p>HTML-5</p>
+              </li>
+              <li>
+                <img class="icon" src="images/icons/css.svg" alt="icon" />
+                <p>CSS-3</p>
+              </li>
+              <li>
+                <img class="icon" src="images/icons/js.svg" alt="icon" />
+                <p>Basic JavaScript</p>
+              </li>
+              <li>
+                <img class="icon" src="images/icons/sass.svg" alt="icon" />
+                <p>SASS / SCSS / BEM</p>
+              </li>
+              <li>
+                <img class="icon" src="images/icons/bs.svg" alt="icon" />
+                <p>Bootstrap</p>
+              </li>
+            </ul>
+            <div class="languages margin-top">
+              <p class="list-title">Languages</p>
+              <ul class="education-list list">
+                <li>
+                  <img class="icon" src="images/icons/eng.svg" alt="icon" />
+                  <p>English - A0 -> A1</p>
+                </li>
+                <li>
+                  <img class="icon" src="images/icons/ru.svg" alt="icon" />
+                  <p>Russian - Native</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="work-text text">
+            <h2>Work Experience</h2>
+            <ul>
+              <li>Currently no commercial experience</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <span class="line margin-top"></span>
+
+      <section class="education margin-top">
+        <div class="education-row row">
+          <div class="block-left">
+            <p class="list-title">Hobbies</p>
+            <ul class="hobbies-list list">
+              <li>
+                <img class="icon" src="images/icons/sport.svg" alt="icon" />
+                <p>Sport</p>
+              </li>
+              <li>
+                <img class="icon" src="images/icons/travel.svg" alt="icon" />
+                <p>Travel</p>
+              </li>
+            </ul>
+          </div>
+          <div class="education-text text">
+            <h2>Education</h2>
+            <ul>
+              <li>COLLEGE OF INDUSTRY TECHNOLOGIES</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <span class="line margin-top"></span>
+
+      <section class="code-example">
+        <div class="code margin-top">
+          <h2 class="code-title">Code</h2>
+
+          <pre class="margin-top">
+              <code>
+let name = 'Vasya';
+alert('Hello' + name)
+            </code>
+          </pre>
+        </div>
+      </section>
+
+      <footer class="footer margin-top">
+        <div class="footer-row">
+          <a href="https://github.com/mshr1">
+            <img class="icon" src="images/icons/git.svg" alt="icon" />
+          </a>
+          <p>Made in 2022</p>
+          <a href="https://rs.school/js/">
+            <img
+              src="images/rs_school_js.svg"
+              alt="icon"
+              width="100"
+              height="100"
+            />
+          </a>
+        </div>
+      </footer>
+    </main>
+  </body>
 </html>
