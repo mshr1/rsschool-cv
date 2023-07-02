@@ -13,3 +13,21 @@
 > Let others talk about me
 
 <br>
+
+# Skills:
+
+- HTML / CSS / JavaScript (Basic)
+- SASS / SCSS / BEM
+- Python (Fundamentals)
+- Git
+- Figma
+
+<br>
+
+# Code Example:
+
+```
+let name = 'Vasya';
+console.log('Hello ' + name);
+
+```
