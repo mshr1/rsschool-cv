@@ -31,3 +31,22 @@ let name = 'Vasya';
 console.log('Hello ' + name);
 
 ```
+
+# Experience:
+
+No
+
+<br>
+
+# Education:
+
+- Stepik HTML and CSS Basic Course
+- Stepik Python for Begginers
+- Youtube
+- Udemy
+
+<br>
+
+# English
+
+very low skill, but i in process...
